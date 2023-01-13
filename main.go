@@ -35,5 +35,5 @@ func main() {
     //Create a catchall route
     r.Any("/*proxyPath", proxy)
 
-    r.Run(":8080")
+    r.Run(":80")
 }
